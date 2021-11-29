@@ -1,0 +1,84 @@
+.head{
+    transform: rotate(5deg);
+    width: 20vw;
+    margin-left: 40%;
+    animation-name: headache;
+    animation-duration: 2s;
+}
+
+.me{ 
+    width:15vw;
+    margin-left:10vw;
+}
+.contact{
+    width:15vw;
+    margin-left:20.5vw;
+}
+
+.work{
+    width:15vw;
+    margin-left: 15vw;
+}
+
+@keyframes headache{
+    0%{transform: rotate(5deg);}
+    50%{transform: rotate(-5deg);}
+    80%{transform: rotate(7deg);}
+   100%{transform: rotate(5deg);}
+}
+body{
+    background-color:thistle;
+}
+
+.bio{
+    max-width: 30vw;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:50vw;
+    color:rgb(38, 24, 100);
+    transform: translateY(-200%);
+    background-color: oldlace;
+    padding: 3rem;
+    padding-bottom:4rem ;
+  
+    
+
+}
+.self{
+    width:30vw;
+    margin-left:10vw;
+    border:3rem solid oldlace ; 
+}
+
+.con{
+    background-color: oldlace;
+    padding: 3rem;
+    padding-bottom:0rem ;
+    max-width: 30vw;
+    color:rgb(38, 24, 100);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:50vw;
+    transform: translateY(-175%);
+}
+.ins{
+    width:2rem;
+    margin-left: 0;
+    margin-top: 15vh;
+    transform: translateY(-200%);
+}
+
+.email{
+    width:2rem;
+    margin-left:2vw;
+    margin-top: 10vh;
+    transform: translateY(-200%);
+}
+.emi{
+    width:2rem;
+    margin-top: 2.5vh;
+    margin-left: 7.5vw;
+    transform: translateY(-530%);
+}
+h2{
+    transform: translateY(100%);
+}

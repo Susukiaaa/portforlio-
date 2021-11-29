@@ -1,0 +1,37 @@
+img{
+    width:100vw;
+    
+}
+
+.head{
+    transform: rotate(5deg);
+    width: 20vw;
+    margin-left: 40%;
+    animation-name: headache;
+    animation-duration: 2s;
+}
+
+.me{ 
+    width:15vw;
+    margin-left:10vw;
+}
+.contact{
+    width:15vw;
+    margin-left:20.5vw;
+}
+
+.work{
+    width:15vw;
+    margin-left: 15vw;
+}
+
+@keyframes headache{
+    0%{transform: rotate(5deg);}
+    50%{transform: rotate(-5deg);}
+    80%{transform: rotate(7deg);}
+   100%{transform: rotate(5deg);}
+}
+
+.pic{
+    margin-top: 5vh;
+}

@@ -1,0 +1,45 @@
+.name {
+    width:45vw;
+    transform:translateX(-5%);
+    margin-top: 10vh;
+}
+
+#about{
+    width:20vw;
+    margin-top:5vh;
+    margin-left: 3rem;
+    
+}
+
+.my-head{
+    width: 30vw;
+    position:fixed;
+    top:60vh;
+    left:70%;
+    transform: rotate(5deg);
+   animation-name: headache;
+   animation-duration: 2s;
+}
+@keyframes headache{
+    0%{transform: rotate(5deg);}
+    50%{transform: rotate(-5deg);}
+    80%{transform: rotate(7deg);}
+   100%{transform: rotate(5deg);}
+}
+
+.ins{
+    width:2rem;
+    margin-left: 7vw;
+    transform: translateY(-200%);
+}
+
+.email{
+    width:2rem;
+    margin-left: 7vw;
+    transform: translateY(-200%);
+}
+.emi{
+    width:2rem;
+    margin-left: 20vw;
+    transform: translateY(-530%);
+}
