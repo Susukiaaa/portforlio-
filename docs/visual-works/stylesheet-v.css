@@ -58,7 +58,27 @@ img{
     width:25vw; margin-left: -2.5vw; margin-top: -2.5vw;
     
 }
+.me:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+.work:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+.contact:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+.head:hover{
+    animation-name: headache;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
 
 /*@keyframes hovergallery{
     100%{width:30vw; margin-left: -5vw; margin-top: -5vw;}
 }
+

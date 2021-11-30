@@ -11,6 +11,8 @@
     animation-duration: 2s;
 }
 
+
+
 @keyframes headache{
      0%{transform: rotate(5deg);}
      50%{transform: rotate(-5deg);}
@@ -34,4 +36,9 @@ font-size: 2vw;}
     width:45vw;
     transform:translateX(-5%);
     margin-top: 20vh;
+}
+
+#about:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
 }

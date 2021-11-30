@@ -35,3 +35,22 @@ img{
 .pic{
     margin-top: 5vh;
 }
+
+.me:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+.work:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+.contact:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+.head:hover{
+    animation-name: headache;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
