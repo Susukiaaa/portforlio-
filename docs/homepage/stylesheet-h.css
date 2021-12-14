@@ -2,10 +2,8 @@
     background-color: mediumslateblue;
 }*/
 .my-head{
-     width: 30vw;
-     position:fixed;
-     top:60vh;
-     left:70%;
+     width: 100%;
+     max-width: 300px;
      transform: rotate(5deg);
     animation-name: headache;
     animation-duration: 2s;
@@ -22,14 +20,21 @@
 
 h1{
 color:rgb(227, 227, 235);
-font-size: 2vw;}
+font-size: 2vw;
+}
 
 
-#about{
+.about{
     width:20vw;
     margin-top:5vh;
     margin-left: 3rem;
     
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 
 .name {
@@ -41,4 +46,12 @@ font-size: 2vw;}
 #about:hover{
     opacity: 60%;
     transition: 0.2s linear;
+}
+
+
+.my-head:hover{
+    animation-name: headache;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
 }

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('../../works/other/Head-cursor.png'), auto;	 
+   
+}
+
+.main-menu {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4vmin;
+    padding: 2em;
+    margin-left:2vw;
+    margin-top: 3vh;
+}
+
+.main-menu img {
+    height: 10vw;
+    max-height: 50px;
+}
+
+.name {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    max-width: 400px;
+    margin-right:3vw;
+    margin-bottom: 4vh;
+}
+
+#Contact:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+#visual:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+#about:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+#sketch-parent {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -2;
+}

@@ -1,45 +1,116 @@
-.name {
-    width:45vw;
-    transform:translateX(-5%);
-    margin-top: 10vh;
-}
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('../works/other/Head-cursor.png'), auto;	 
+} */
 
-#about{
-    width:20vw;
-    margin-top:5vh;
-    margin-left: 3rem;
+
+.name {
+    width:30vw;
+    margin-top: 40vh;
+    margin-left: 4vw;
     
 }
 
-.my-head{
-    width: 30vw;
-    position:fixed;
-    top:60vh;
-    left:70%;
+
+
+#my-head{
+    height:10vw;
+    position:relative;
+    margin-left:15%;
     transform: rotate(5deg);
+    transform: translateY(-50%);
    animation-name: headache;
    animation-duration: 2s;
+
 }
+
 @keyframes headache{
     0%{transform: rotate(5deg);}
-    50%{transform: rotate(-5deg);}
-    80%{transform: rotate(7deg);}
+    50%{transform: rotate(-5deg); }
+    80%{transform: rotate(7deg); }
    100%{transform: rotate(5deg);}
 }
 
 .ins{
-    width:2rem;
-    margin-left: 7vw;
-    transform: translateY(-200%);
+    width:2vw;
+    margin-left: 5vw;
+    
 }
 
 .email{
-    width:2rem;
-    margin-left: 7vw;
-    transform: translateY(-200%);
+    width:2vw;
+    margin-left: 6vw;
+    
 }
 .emi{
-    width:2rem;
-    margin-left: 20vw;
-    transform: translateY(-530%);
+    font-size:1.3vw;
+    margin-left:17vw;
+    transform: translateY(-210%);
 }
+
+.hh3{
+    margin-top: 9vh;
+}
+
+
+
+.Visual:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+.my-head:hover{
+    animation-name: headache;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.ins:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+.main-menu img {
+    height: 3vw;
+    
+}
+.main-menu {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10vmin;
+    padding: 4vw;
+    margin-top: 12vh;
+
+}
+#sketch-parent {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -2;
+}
+
+#Contact:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+#Visual:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+#About:hover{
+    opacity: 60%;
+    transition: 0.2s linear;
+}
+
+
+
+
+
+
