@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url('../../works/other/Head-cursor.png'), auto;	 
+    cursor: url('works/other/Head-cursor.png'), auto;	 
    
 }
 
@@ -31,20 +31,11 @@
     margin-bottom: 4vh;
 }
 
-#Contact:hover{
+.main-menu a:hover{
     opacity: 60%;
     transition: 0.2s linear;
 }
 
-#visual:hover{
-    opacity: 60%;
-    transition: 0.2s linear;
-}
-
-#about:hover{
-    opacity: 60%;
-    transition: 0.2s linear;
-}
 
 #sketch-parent {
     width: 100vw;

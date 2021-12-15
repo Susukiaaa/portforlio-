@@ -1,19 +1,19 @@
 let headImage;
 
 function preload() {
-    headImage = loadImage('../../works/other/Head-cursor.png')
+    headImage = loadImage('works/other/Head-cursor.png')
 }
 
 function setup() {
     let c = createCanvas(innerWidth, innerHeight);
     c.parent("sketch-parent");
-    imageMode(CENTER);
+    imageMode(CORNER);
 }
   
 function draw() {
     background(255, 10);
     //clear()
-    image(headImage, mouseX, mouseY,48.5,60);
+    image(headImage, mouseX+4, mouseY+4,60,77);
     // fill(255, 20);
     // rect(0, 0, width, height);
     // stroke(map(mouseX, 0, width, 100, 255), 0, map(mouseY, 0, width, 0, 255));

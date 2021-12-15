@@ -32,59 +32,53 @@ body{
     background-color:thistle;
 }
 
-.bio{
-    width: 30vw;
-    font-size: 2vmin;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left:50vw;
-    margin-top: 10vmin;
-    color:rgb(38, 24, 100);
-    transform: translateY(-80vmin);
-    background-color: oldlace;
-    padding: 9vmin;
-    padding-bottom:12vmin ;
-    
-    
-
+.left {
+    margin-left: 5vmin;
+    margin-top: 5vmin;
 }
-.self{
-    width:30vw;
-    margin-left:10vw;
-    border:3rem solid oldlace ; 
-    margin-top: 10vmin;
+
+.right {
+    margin-right: 5vmin;
+    margin-top: 5vmin;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-top: 3rem;
+}
+
+.left img {
+    width: 70%;
+    display: block;
+    border: oldlace solid 7rem;
+    
+}
+
+.bio {
+    font-size: calc(.5rem + 1.5vmin);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color:rgb(38, 24, 100);
+    background-color: oldlace;   
+}
+
+.right {
+    background-color: oldlace;
+    display: grid;
+    align-content: center;
+    padding: 20vmin;
+    padding-left: 0vmin;
 }
 
 .con{
-    background-color: oldlace;
-    padding:  9vmin;
-    padding-bottom:0rem ;
-    max-width: 30vw;
     color:rgb(38, 24, 100);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left:50vw;
-    transform: translateY(-175%);
-}
-.ins{
-    width:4vmin;
-    margin-left: 0;
-    margin-top: 15vh;
-    transform: translateY(-200%);
 }
 
-.email{
-    width:4vmin;
-    margin-left:2vw;
-    margin-top: 10vh;
-    transform: translateY(-200%);
-}
-.emi{
-    width:4vmin;
-    margin-top: 2.5vh;
-    margin-left: 7.5vw;
-    transform: translateY(-530%);
-}
-h2{
-    transform: translateY(100%);
+.con img {
+    width: 40px;
 }
 
 .me:hover{
@@ -103,5 +97,10 @@ h2{
     animation-name: headache;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
 
+@media (max-width: 500px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }
